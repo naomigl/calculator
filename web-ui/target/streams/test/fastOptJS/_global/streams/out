@@ -1,0 +1,16 @@
+[info] Fast optimizing C:\Users\Naomi\Documents\Spark coursera\calculator\web-ui\target\scala-2.13\webui-test-fastopt.js
+[debug] Linker: Compute reachability: 170257 us
+[debug] Linker: Assemble LinkedClasses: 48332 us
+[debug] Basic Linking: 223137 us
+[debug] Inc. optimizer: Batch mode: false
+[debug] Inc. optimizer: Incremental part: 14698 us
+[debug] Inc. optimizer: Optimizing 0 methods.
+[debug] Inc. optimizer: Optimizer part: 196 us
+[debug] Inc. optimizer: 19311 us
+[debug] Refiner: Compute reachability: 88147 us
+[debug] Refiner: Assemble LinkedClasses: 9911 us
+[debug] Refiner: 98533 us
+[debug] Emitter: Class tree cache stats: reused: 1200 -- invalidated: 0
+[debug] Emitter: Method tree cache stats: resued: 2885 -- invalidated: 0
+[debug] Emitter (write output): 124032 us
+[debug] Global IR cache stats: reused: 28 -- invalidated: 1 -- trees read: 0

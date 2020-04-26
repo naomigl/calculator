@@ -1,0 +1,40 @@
+[debug] javaOptions: Vector()
+[debug] Forking tests - parallelism = false
+[debug] Create a single-thread test executor
+[debug] Runner for org.scalacheck.ScalaCheckFramework produced 0 initial tasks for 0 tests.
+[debug] Runner for com.novocode.junit.JUnitFramework produced 1 initial tasks for 1 tests.
+[debug]   Running TaskDef(calculator.CalculatorSuite, sbt.ForkMain$AnnotatedFingerscan@67abe58a, false, [SuiteSelector])
+[info] Test run started
+[info] Test calculator.CalculatorSuite.Cyclic dependencies should result in NaN started
+[debug] Test calculator.CalculatorSuite.Cyclic dependencies should result in NaN finished, took 0.038 sec
+[info] Test calculator.CalculatorSuite.Self dependency started
+[debug] Test calculator.CalculatorSuite.Self dependency finished, took 0.006 sec
+[info] Test calculator.CalculatorSuite.If b previously depended on a, but no longer does, then it should not be recomputed anymore when a changes started
+[debug] Test calculator.CalculatorSuite.If b previously depended on a, but no longer does, then it should not be recomputed anymore when a changes finished, took 0.009 sec
+[info] Test calculator.CalculatorSuite.tweetRemainingCharsCount with a constant signal started
+[debug] Test calculator.CalculatorSuite.tweetRemainingCharsCount with a constant signal finished, took 0.038 sec
+[info] Test calculator.CalculatorSuite.Expressions corresponding to every variable should be correctly evaluated started
+[debug] Test calculator.CalculatorSuite.Expressions corresponding to every variable should be correctly evaluated finished, took 0.008 sec
+[info] Test calculator.CalculatorSuite.tweetRemainingCharsCount's result signal should follow the input signal started
+[debug] Test calculator.CalculatorSuite.tweetRemainingCharsCount's result signal should follow the input signal finished, took 0.003 sec
+[info] Test calculator.CalculatorSuite.When an expression changes, other variables that depend on it should be recomputed started
+[debug] Test calculator.CalculatorSuite.When an expression changes, other variables that depend on it should be recomputed finished, took 0.004 sec
+[info] Test calculator.CalculatorSuite.When an expression changes, *only* the variables that depend on it should be recomputed started
+[debug] Test calculator.CalculatorSuite.When an expression changes, *only* the variables that depend on it should be recomputed finished, took 0.007 sec
+[info] Test calculator.CalculatorSuite.computeDelta test started
+[debug] Test calculator.CalculatorSuite.computeDelta test finished, took 0.008 sec
+[info] Test calculator.CalculatorSuite.colorForRemainingCharsCount with a constant signal" started
+[debug] Test calculator.CalculatorSuite.colorForRemainingCharsCount with a constant signal" finished, took 0.005 sec
+[info] Test calculator.CalculatorSuite.tweetRemainingCharsCount with a supplementary char started
+[debug] Test calculator.CalculatorSuite.tweetRemainingCharsCount with a supplementary char finished, took 0.002 sec
+[info] Test calculator.CalculatorSuite.computeSolutions test started
+[debug] Test calculator.CalculatorSuite.computeSolutions test finished, took 0.011 sec
+[info] Test calculator.CalculatorSuite.Referencing an unknown variable should result in NaN started
+[debug] Test calculator.CalculatorSuite.Referencing an unknown variable should result in NaN finished, took 0.011 sec
+[info] Test run finished: 0 failed, 0 ignored, 13 total, 0.175s
+[debug]     Produced 0 nested tasks and 13 events.
+[debug] Summary for ScalaCheck not available.
+[debug] Summary for JUnit not available.
+[info] Passed: Total 13, Failed 0, Errors 0, Passed 13
+[debug] Passed tests:
+[debug] 	calculator.CalculatorSuite
